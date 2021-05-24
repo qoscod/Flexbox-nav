@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<style>
+    h3{
+        position: absolute;
+        top: 2.7%;
+        left: 4%;
+        float: left;
+        z-index: 2;
+        background-color: rgba(26, 29, 29, 0.719);
+        color:azure;
+        font-style: oblique;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 40%;
+        padding: 0.3em;
+        
+        
+    }
+</style>
+<body>
+   <div id="miBarra"><h3>Mi barra &reg</h3></div> 
+    <nav class="nav-container">
+        
+        <div class="nav-item nav-item1">
+            <p>1</p>
+            <div class="dropdown-menu">
+                <div class="nav-item ">1</div>
+                <div class="nav-item ">2</div>
+                <div class="nav-item ">
+                    <p>3</p>
+                    <div class="dropdown-menu2">
+                        <div class="nav-item ">1</div>
+                        <div class="nav-item ">2</div>
+                        <div class="nav-item ">3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item nav-item2">2</div>
+        <div class="nav-item nav-item3">3</div>
+        <div class="nav-item nav-item4">4</div>
+        <div class="nav-item nav-item5">5</div>
+
+    </nav>
+</body>
+</html>
